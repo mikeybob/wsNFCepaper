@@ -52,6 +52,6 @@ set(CPACK_GENERATOR "DEB")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Denis Bodor")
 set(CPACK_PACKAGE_VERSION "${VERSION}")
 set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Waveshare NFC E-ink upload tool")
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "libc6, libmagickwand-6.q16-6, libnfc5")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libc6, libmagickwand-6.q16-6, libnfc6")
 include(CPack)
 
